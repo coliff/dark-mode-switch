@@ -38,6 +38,11 @@ Turning dark mode on will add `data-theme="dark"` to the `body` tag. You can use
 
 3. Edit the `dark-mode.css` to suit your site - the one included here is a very basic example.
 
+
+## Demo
+
+[Demo page](https://coliff.github.io/dark-mode-switch/index.html)
+
 ## Credits
 
 Created thanks to the excellent [dark-theme](https://codyhouse.co/blog/post/dark-light-switch-css-javascript) and [local storage](https://codyhouse.co/blog/post/store-theme-color-preferences-with-localstorage) tutorials over at [codyhouse.co](https://codyhouse.co).
