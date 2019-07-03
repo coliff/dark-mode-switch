@@ -1,6 +1,8 @@
 {
   "name": "dark-mode-switch",
   "version": "1.0.0",
+  "author": "Christian Oliff <christianoliff@yahoo.com>",
+  "license": "MIT",
   "description": "Dark-mode theme switch with local storage preference",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,8 +15,7 @@
     "dark-mode",
     "bootstrap"
   ],
-  "author": "Christian Oliff <christianoliff@yahoo.com>",
-  "license": "MIT",
+  "main": "dark-mode-switch.min.js",
   "bugs": {
     "url": "https://github.com/coliff/dark-mode-switch/issues"
   },
