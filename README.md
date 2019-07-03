@@ -43,6 +43,10 @@ Turning dark mode on will add `data-theme="dark"` to the `body` tag. You can use
 
 [Demo page](https://coliff.github.io/dark-mode-switch/index.html)
 
+## Browser Support
+
+Works well with all the browsers [supprted by Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/browsers-devices/#supported-browsers)
+
 ## Credits
 
 Created thanks to the excellent [dark-theme](https://codyhouse.co/blog/post/dark-light-switch-css-javascript) and [local storage](https://codyhouse.co/blog/post/store-theme-color-preferences-with-localstorage) tutorials over at [codyhouse.co](https://codyhouse.co).
