@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "Christian Oliff <christianoliff@yahoo.com>",
   "license": "MIT",
-  "description": "Dark-mode theme switch with local storage preference",
+  "description": "Dark-mode theme switch for Bootstrap with local storage preference",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
