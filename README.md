@@ -19,22 +19,19 @@ Several quick start options are available:
 
 ## Usage
 
-1. Add your custom switch for the Dark Mode toggle:
+1. Add your custom switch for the Dark Mode toggle followed by the `dark-mode-switch.min.js` script:
 
 ```html
 <div class="custom-control custom-switch">
   <input type="checkbox" class="custom-control-input" id="darkSwitch" />
   <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
 </div>
-```
-
-2. Load `dark-mode-switch.min.js` at the foot of your page:
-
-```html
 <script src="dark-mode-switch.min.js"></script>
 ```
 
-3. Edit the `dark-mode.css` to suit your site - the one included here is a very basic example.
+*Note: the JS must be loaded after the switch, but should be as early as possible to prevent CSS repainting.*
+
+2. Edit the `dark-mode.css` to suit your site - the one included here is a very basic example.
 
 ## How it works
 
