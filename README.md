@@ -45,7 +45,7 @@ Turning dark mode on will add `data-theme="dark"` to the `body` tag. You can use
 
 ## Browser Support
 
-Works well with all the browsers [supprted by Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/browsers-devices/#supported-browsers)
+Works well with all the browsers [supported by Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/browsers-devices/#supported-browsers)
 
 ## Credits
 
