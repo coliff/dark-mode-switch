@@ -1,23 +1,12 @@
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/coliff/dark-mode-switch/master/LICENSE)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-# Dark Mode Switch
+# 🌓 Dark Mode Switch
 
-Add a dark-mode theme switch with a Bootstrap Custom Switch.
+Add a dark-mode theme toggle with a Bootstrap Custom Switch.
 
 - Uses local storage to save preference
 - Only 230 Bytes minified and gzipped!
-
-## How it works
-
-Turning dark mode on will add `data-theme="dark"` to the `body` tag. You can use CSS to target the elements on the page like so:
-
-```css
-[data-theme="dark"] {
-  background-color: #111 !important;
-  color: #eee;
-}
-```
 
 ## Usage
 
@@ -38,6 +27,16 @@ Turning dark mode on will add `data-theme="dark"` to the `body` tag. You can use
 
 3. Edit the `dark-mode.css` to suit your site - the one included here is a very basic example.
 
+## How it works
+
+Turning dark mode on will add `data-theme="dark"` to the `body` tag. You can use CSS to target the elements on the page like so:
+
+```css
+[data-theme="dark"] {
+  background-color: #111 !important;
+  color: #eee;
+}
+```
 
 ## Demo
 
