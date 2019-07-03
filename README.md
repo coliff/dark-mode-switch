@@ -8,6 +8,15 @@ Add a dark-mode theme toggle with a Bootstrap Custom Switch.
 - Uses local storage to save preference
 - Only 230 Bytes minified and gzipped!
 
+## Quick start
+
+Several quick start options are available:
+
+- [Download the latest release](https://github.com/coliff/dark-mode-switch/archive/v1.0.0.zip)
+- Clone the repo `git clone https://github.com/coliff/dark-mode-switch.git`
+- Install with [npm](https://www.npmjs.com/package/dark-mode-switch) `npm install dark-mode-switch`
+- Install with [yarn](https://yarnpkg.com/en/package/dark-mode-switch) `yarn add dark-mode-switch`
+
 ## Usage
 
 1. Add your custom switch for the Dark Mode toggle:
