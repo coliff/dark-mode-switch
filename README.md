@@ -1,7 +1,7 @@
+# 🌓 **Dark Mode Switch**
+
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/coliff/dark-mode-switch/master/LICENSE)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-
-# 🌓 Dark Mode Switch
 
 Add a dark-mode theme toggle with a Bootstrap Custom Switch.
 
