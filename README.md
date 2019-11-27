@@ -9,7 +9,7 @@
 Add a dark-mode theme toggle with a Bootstrap Custom Switch.
 
 - Uses local storage to save preference
-- Only 230 Bytes minified and gzipped!
+- Only 262 Bytes minified and gzipped!
 
 ## Quick start
 
