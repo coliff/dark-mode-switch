@@ -17,12 +17,15 @@ Several quick start options are available:
 
 - [Download the latest release](https://github.com/coliff/dark-mode-switch/archive/v1.0.0.zip)
 - Clone the repo `git clone https://github.com/coliff/dark-mode-switch.git`
-- Install with [npm](https://www.npmjs.com/package/dark-mode-switch) `npm install dark-mode-switch`
-- Install with [yarn](https://yarnpkg.com/en/package/dark-mode-switch) `yarn add dark-mode-switch`
+- Install with [npm](https://www.npmjs.com/package/dark-mode-switch)
+  `npm install dark-mode-switch`
+- Install with [yarn](https://yarnpkg.com/en/package/dark-mode-switch)
+  `yarn add dark-mode-switch`
 
 ## Usage
 
-1. Add your custom switch for the Dark Mode toggle followed by the `dark-mode-switch.min.js` script:
+1. Add your custom switch for the Dark Mode toggle followed by the
+   `dark-mode-switch.min.js` script:
 
 ```html
 <div class="custom-control custom-switch">
@@ -32,11 +35,13 @@ Several quick start options are available:
 <script src="dark-mode-switch.min.js"></script>
 ```
 
-2. Edit the `dark-mode.css` to suit your site - the one included here is a very basic example.
+2. Edit the `dark-mode.css` to suit your site - the one included here is a very
+   basic example.
 
 ## How it works
 
-Turning dark mode on will add `data-theme="dark"` to the `body` tag. You can use CSS to target the elements on the page like so:
+Turning dark mode on will add `data-theme="dark"` to the `body` tag. You can use
+CSS to target the elements on the page like so:
 
 ```css
 [data-theme="dark"] {
@@ -51,8 +56,13 @@ Turning dark mode on will add `data-theme="dark"` to the `body` tag. You can use
 
 ## Browser Support
 
-Works well with all the browsers [supported by Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/browsers-devices/#supported-browsers)
+Works well with all the browsers
+[supported by Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/browsers-devices/#supported-browsers)
 
 ## Credits
 
-Created thanks to the excellent [dark-theme](https://codyhouse.co/blog/post/dark-light-switch-css-javascript) and [local storage](https://codyhouse.co/blog/post/store-theme-color-preferences-with-localstorage) tutorials over at [codyhouse.co](https://codyhouse.co).
+Created thanks to the excellent
+[dark-theme](https://codyhouse.co/blog/post/dark-light-switch-css-javascript)
+and
+[local storage](https://codyhouse.co/blog/post/store-theme-color-preferences-with-localstorage)
+tutorials over at [codyhouse.co](https://codyhouse.co).
