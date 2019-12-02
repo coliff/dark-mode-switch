@@ -21,12 +21,22 @@ window.addEventListener('load', () => {
  * @return {void}
  */
 function initTheme() {
+  const systemPrefersDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
   const darkThemeSelected =
     localStorage.getItem('darkSwitch') !== null &&
     localStorage.getItem('darkSwitch') === 'dark';
-  darkSwitch.checked = darkThemeSelected;
-  darkThemeSelected ? document.body.setAttribute('data-theme', 'dark') :
+  if (darkThemeSelected) {
+    darkSwitch.checked = true;
+    document.body.setAttribute('data-theme', 'dark');
+  }
+  else if (systemPrefersDarkMode) {
+    darkSwitch.checked = true;
+    document.body.setAttribute('data-theme', 'dark');
+  }
+  else {
+    darkSwitch.checked = false;
     document.body.removeAttribute('data-theme');
+  }
 }
 
 
