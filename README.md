@@ -55,7 +55,7 @@ Works well with all the browsers [supported by Bootstrap](https://getbootstrap.c
 
 ## To Enable DarkMode in Android Webview
 - You need DOM Storage API in order to make this work with WebView.
-- Inside OnCreate under WebView paste this line
+- Inside OnCreate under WebView paste this line.
 
 `WebSettings.setDomStorageEnabled(true)`
 
