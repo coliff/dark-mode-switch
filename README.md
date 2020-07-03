@@ -1,6 +1,6 @@
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/coliff/dark-mode-switch/master/LICENSE)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-[![BestofJS: Hot Project](https://img.shields.io/badge/bestofjs.org-Hot%20Project-orange)](https://bestofjs.org/projects/dark-mode-switch)
+[![Best of JS](https://img.shields.io/endpoint?url=https://bestofjs-serverless.now.sh/api/project-badge?fullName=coliff%2Fdark-mode-switch%26since=monthly)](https://bestofjs.org/projects/dark-mode-switch)
 [![GitHub Stars](https://img.shields.io/github/stars/coliff/dark-mode-switch.svg?label=github%20stars)](https://github.com/coliff/dark-mode-switch)
 [![NPM Downloads](https://img.shields.io/npm/dt/dark-mode-switch.svg)](https://www.npmjs.com/package/dark-mode-switch)
 
