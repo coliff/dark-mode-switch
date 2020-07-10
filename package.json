@@ -15,7 +15,7 @@
     "url": "git+https://github.com/coliff/dark-mode-switch.git"
   },
   "license": "MIT",
-  "author": "Christian Oliff <christianoliff@yahoo.com>",
+  "author": "Christian Oliff <christianoliff@pm.me>",
   "main": "dark-mode-switch.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
