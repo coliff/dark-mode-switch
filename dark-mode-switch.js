@@ -101,8 +101,8 @@ function applyBackgroundTheme(color) {
     background-color: #eee !important;
   }`;
 
-  head = document.head || document.getElementsByTagName('head')[0];
-  style = document.createElement('style');
+  var head = document.head || document.getElementsByTagName('head')[0];
+  var style = document.createElement('style');
   head.appendChild(style);
 
   style.type = 'text/css';
