@@ -77,7 +77,7 @@ function applyBackgroundTheme(color) {
     style.setAttribute("id", "dark-mode-switch");
     head.appendChild(style);
   } else { // If light mode is enabled remove style
-    darkModeStyle = document.getElementById("dark-mode-switch");
+    var darkModeStyle = document.getElementById("dark-mode-switch");
     if (darkModeStyle !== null && typeof darkModeStyle !== 'undefined')
       darkModeStyle.parentNode.removeChild(darkModeStyle);
   }
