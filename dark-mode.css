@@ -1,0 +1,16 @@
+body {
+    background-color: #111 !important;
+    color: #eee;
+}
+
+.bg-light {
+    background-color: #333 !important;
+}
+
+.bg-white {
+    background-color: #000 !important;
+}
+
+.bg-black {
+    background-color: #eee !important;
+}
