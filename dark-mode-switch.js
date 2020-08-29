@@ -65,50 +65,20 @@ function resetTheme() {
  * @param {*} color 
  */
 function applyBackgroundTheme(color) {
-  // CSS for dark mode
-  var cssDark = `body {
-    background-color: #111 !important;
-    color: #eee;
-  }
-  
-  .bg-light {
-    background-color: #333 !important;
-  }
-  
-  .bg-white {
-    background-color: #000 !important;
-  }
-  
-  .bg-black {
-    background-color: #eee !important;
-  }`;
+  // CSS path for dark mode
+  var cssDark = 'dark-mode.css';
 
-  // CSS for light mode
-  var cssLight = `body {
-    background-color: #f2f2f2 !important;
-    color: #212529;
-  }
-  
-  .bg-light {
-    background-color: #f8f9fa !important;
-  }
-  
-  .bg-white {
-    background-color: #fff !important;
-  }
-  
-  .bg-black {
-    background-color: #eee !important;
-  }`;
-
-  var head = document.head || document.getElementsByTagName('head')[0];
-  var style = document.createElement('style');
-  head.appendChild(style);
-
-  style.type = 'text/css';
-  if (style.styleSheet) {
-    style.styleSheet.cssText = color === 'dark' ? cssDark : cssLight;
-  } else {
-    style.appendChild(document.createTextNode(color === 'dark' ? cssDark : cssLight));
+  if (color === 'dark') { // If dark mode is enabled add css
+    var head = document.head || document.getElementsByTagName('head')[0];
+    var style = document.createElement("link");
+    style.setAttribute("rel", "stylesheet");
+    style.setAttribute("type", "text/css");
+    style.setAttribute("href", cssDark);
+    style.setAttribute("id", "dark-mode-switch");
+    head.appendChild(style);
+  } else { // If light mode is enabled remove style
+    darkModeStyle = document.getElementById("dark-mode-switch");
+    if (darkModeStyle !== null && typeof darkModeStyle !== 'undefined')
+      darkModeStyle.parentNode.removeChild(darkModeStyle);
   }
 }
