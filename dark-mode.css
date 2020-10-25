@@ -1,6 +1,7 @@
 [data-theme="dark"] {
   background-color: #111 !important;
   color: #eee;
+  transition: background 0.3s linear,color 0.3s linear;
 }
 
 [data-theme="dark"] .bg-light {
