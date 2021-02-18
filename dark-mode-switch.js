@@ -1,8 +1,8 @@
 const darkSwitch = document.getElementById('darkSwitch');
-window.addEventListener('load', () => {
+window.addEventListener('load', function(){
   if (darkSwitch) {
     initTheme();
-    darkSwitch.addEventListener('change', () => {
+    darkSwitch.addEventListener('change', function(){
       resetTheme();
     });
   }
