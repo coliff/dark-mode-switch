@@ -1,4 +1,4 @@
-const darkSwitch = document.getElementById('darkSwitch');
+var darkSwitch = document.getElementById('darkSwitch');
 window.addEventListener('load', function(){
   if (darkSwitch) {
     initTheme();
@@ -21,7 +21,7 @@ window.addEventListener('load', function(){
  * @return {void}
  */
 function initTheme() {
-  const darkThemeSelected =
+  var darkThemeSelected =
     localStorage.getItem('darkSwitch') !== null &&
     localStorage.getItem('darkSwitch') === 'dark';
   darkSwitch.checked = darkThemeSelected;
