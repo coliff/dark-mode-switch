@@ -15,9 +15,16 @@
     "url": "git+https://github.com/coliff/dark-mode-switch.git"
   },
   "license": "MIT",
-  "author": "Christian Oliff <christianoliff@pm.me>",
+  "author": "Christian Oliff (https://christianoliff.com)",
   "main": "dark-mode-switch.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prettier": "prettier --write dark-mode-switch.js",
+    "test": "eslint dark-mode-switch.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
   }
 }
