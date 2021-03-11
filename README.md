@@ -54,7 +54,8 @@ Turning dark mode on will add `data-theme="dark"` to the `body` tag. You can use
 Works well with all the browsers [supported by Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/browsers-devices/#supported-browsers)
 
 ## To Enable DarkMode in Android Webview
-- You need DOM Storage API in order to make this work with WebView.
+
+- You need DOM Storage API in order to [make this work with WebView](https://github.com/mcnaveen/Android-Webview-Darkmode-with-JavaScript).
 - Inside OnCreate under WebView paste this line.
 
 `WebSettings.setDomStorageEnabled(true)`
