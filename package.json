@@ -1,6 +1,6 @@
 {
   "name": "dark-mode-switch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dark-mode theme switch for Bootstrap with local storage preference",
   "keywords": [
     "bootstrap",
@@ -18,13 +18,25 @@
   "author": "Christian Oliff (https://christianoliff.com)",
   "main": "dark-mode-switch.min.js",
   "scripts": {
+    "build": "npm run prettier && npm run test && npm run minify",
+    "minify": "terser --ecma 5 --keep-classnames --keep-fnames --safari10 --output dark-mode-switch.min.js -- dark-mode-switch.js",
     "prettier": "prettier --write dark-mode-switch.js",
     "test": "eslint dark-mode-switch.js"
   },
+  "files": [
+    "dark-mode-switch.js",
+    "dark-mode-switch.min.js",
+    "dark-mode-switch.css",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
   "devDependencies": {
     "eslint": "^7.26.0",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-ie11": "^1.0.0",
     "eslint-plugin-prettier": "^3.4.0",
-    "prettier": "^2.3.0"
+    "prettier": "^2.3.0",
+    "terser": "^5.7.0"
   }
 }

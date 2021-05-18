@@ -10,7 +10,7 @@
 Add a dark-mode theme toggle with a Bootstrap Custom Switch.
 
 - Uses local storage to save preference
-- Only 262 Bytes minified and gzipped!
+- Only 383 Bytes minified and gzipped!
 
 ## Quick start
 
@@ -25,6 +25,8 @@ Several quick start options are available:
 
 1. Add your custom switch for the Dark Mode toggle followed by the `dark-mode-switch.min.js` script:
 
+Bootstrap 4.x
+
 ```html
 <div class="custom-control custom-switch">
   <input type="checkbox" class="custom-control-input" id="darkSwitch" />
@@ -33,7 +35,17 @@ Several quick start options are available:
 <script src="dark-mode-switch.min.js"></script>
 ```
 
-2. Edit the `dark-mode.css` to suit your site - the one included here is a very basic example.
+Bootstrap 5.x
+
+```html
+<div class="form-check form-switch">
+  <input type="checkbox" class="form-check-input" id="darkSwitch" />
+  <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+</div>
+<script src="dark-mode-switch.min.js"></script>
+```
+
+2. Edit the `dark-mode.css` to suit your site - the one included here is a basic example.
 
 ## How it works
 
@@ -48,11 +60,11 @@ Turning dark mode on will add `data-theme="dark"` to the `body` tag. You can use
 
 ## Demo
 
-[Demo page](https://coliff.github.io/dark-mode-switch/index.html)
+[Bootstrap 5 Demo page](https://coliff.github.io/dark-mode-switch/index.html)
 
 ## Browser Support
 
-Works well with all the browsers [supported by Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/browsers-devices/#supported-browsers)
+Works well with all the browsers supported by [Bootstrap 4](https://getbootstrap.com/docs/4.5/getting-started/browsers-devices/#supported-browsers) and [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/browsers-devices/#supported-browsers)
 
 ## To Enable DarkMode in Android Webview
 
