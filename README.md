@@ -60,7 +60,7 @@ Turning dark mode on will add `data-theme="dark"` to the `body` tag. You can use
 
 ## Demo
 
-[Bootstrap 5 Demo page](https://coliff.github.io/dark-mode-switch/)
+[Bootstrap 5 Demo page](https://coliff.github.io/dark-mode-switch/index.html)
 
 ## Browser Support
 
