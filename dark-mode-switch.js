@@ -1,3 +1,9 @@
+/*!
+ * Dark Mode Switch v1.0.1 (https://github.com/coliff/dark-mode-switch)
+ * Copyright 2021 C.Oliff
+ * Licensed under MIT (https://github.com/coliff/dark-mode-switch/blob/main/LICENSE)
+ */
+
 var darkSwitch = document.getElementById("darkSwitch");
 window.addEventListener("load", function () {
   if (darkSwitch) {
