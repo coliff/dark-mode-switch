@@ -5,7 +5,7 @@
  */
 [data-theme="light"] {
   background-color: #eee !important;
-  color: #111;
+  color: #111 !important;
 }
 
 [data-theme="light"] .bg-white {

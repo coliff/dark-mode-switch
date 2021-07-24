@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dark Mode Switch</title>
+  <title>Light Mode Switch</title>
   <meta name="description" content="Add a dark-mode theme toggle with a Bootstrap Custom Switch">
 
   <link rel="icon"
@@ -27,40 +27,41 @@
   <script
     nomodule>window.MSInputMethodContext && document.documentMode && document.write('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-ie11@5/css/bootstrap-ie11.min.css"><script src="https://cdn.jsdelivr.net/npm/ie11-custom-properties@4/ie11CustomProperties.min.js"><\/script>');</script>
 
-  <link rel="stylesheet" href="dark-mode.css">
+  <link rel="stylesheet" href="light-mode.css">
 
 </head>
 
-<body class="bg-white text-center d-flex h-100" >
+<body class="bg-dark text-light text-center d-flex h-100">
 
-  <div class="container d-flex p-3 mx-auto w-100 flex-column">
+  <div class="container  d-flex p-3 mx-auto w-100 flex-column">
     <header class="mb-auto">
-      <div class="float-md-start fw-bold fs-5">Dark Mode Switch</div>
+      <div class="float-md-start fw-bold fs-5">Light Mode Switch</div>
       <nav class="nav justify-content-center float-md-end">
-        <a class="nav-link active" href="https://coliff.github.io/dark-mode-switch/">Home</a>
-        <a class="nav-link active" href="darkmodedefault.html">light Mode Switch</a>
-        <a class="nav-link" href="https://github.com/coliff/dark-mode-switch" target="_blank">GitHub</a>
+        <a class="nav-link active" href="">Home</a>
+        <a class="nav-link  " href="index.html">Dark Mode Switch</a>
+        <a class="nav-link" href="" target="_blank">GitHub</a>
         <div class="nav-link">
 
           <div class="form-check form-switch">
-            <input type="checkbox" class="form-check-input" id="darkSwitch">
-            <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+            <input type="checkbox" class="form-check-input" id="lightSwitch">
+            <label class="custom-control-label" for="lightSwitch">Light Mode</label>
           </div>
-          <script src="dark-mode-switch.min.js"></script>
+          <!-- <script src="light-mode-switch.min.js"></script> -->
+          <script src="light-mode-switch.js"></script>
 
         </div>
       </nav>
     </header>
 
     <main role="main">
-      <h1>🌓 Dark Mode Switch</h1>
-      <p class="lead">Add a dark-mode theme switch with a Bootstrap Custom Switch</p>
+      <h1>🌓 Light Mode Switch</h1>
+      <p class="lead">Add a light-mode theme switch with a Bootstrap Custom Switch</p>
       <ul class="list-unstyled">
         <li>&middot; Uses local storage to save preference</li>
         <li>&middot; Only 383 Bytes minified and gzipped!</li>
       </ul>
       <p>
-        <a href="https://github.com/coliff/dark-mode-switch" target="_blank" rel="noopener"
+        <a href="" target="_blank" rel="noopener"
           class="btn btn-lg btn-secondary">
           Learn more
         </a>
