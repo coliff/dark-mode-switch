@@ -58,6 +58,65 @@ Turning dark mode on will add `data-theme="dark"` to the `body` tag. You can use
 }
 ```
 
+
+# 🌓 Light Mode Switch
+
+Add a dark-mode theme toggle with a Bootstrap Custom Switch.
+
+- Uses local storage to save preference
+- Only 383 Bytes minified and gzipped!
+
+## Quick start
+
+Several quick start options are available:
+
+- [Download the latest release](https://github.com/coliff/dark-mode-switch/archive/v1.0.0.zip)
+- Clone the repo `git clone https://github.com/coliff/dark-mode-switch.git`
+- Install with [npm](https://www.npmjs.com/package/dark-mode-switch) `npm install dark-mode-switch`
+- Install with [yarn](https://yarnpkg.com/en/package/dark-mode-switch) `yarn add dark-mode-switch`
+
+## Usage
+
+1. Add your custom switch for the Light Mode toggle followed by the `Light-mode-switch.min.js` script:
+
+Bootstrap 4.x
+
+```html
+<div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" id="lightSwitch" />
+  <label class="custom-control-label" for="lightSwitch">Light Mode</label>
+</div>
+<script src="light-mode-switch.min.js"></script>
+```
+
+Bootstrap 5.x
+
+```html
+<div class="form-check form-switch">
+  <input type="checkbox" class="form-check-input" id="lightSwitch" />
+  <label class="custom-control-label" for="lightSwitch">Light Mode</label>
+</div>
+<script src="light-mode-switch.min.js"></script>
+```
+
+2. Edit the `light-mode.css` to suit your site - the one included here is a basic example.
+
+## How it works
+
+Turning dark mode on will add `data-theme="light"` to the `body` tag. You can use CSS to target the elements on the page like so:
+
+```css
+[data-theme="light"] {
+  background-color: #eee !important;
+  color: #111;
+}
+```
+
+
+
+
+
+
 ## Demo
 
 [Bootstrap 5 Demo page](https://coliff.github.io/dark-mode-switch/index.html)
