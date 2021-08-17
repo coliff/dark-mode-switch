@@ -26,9 +26,14 @@ window.addEventListener("load", function () {
  * @return {void}
  */
 function initTheme() {
-  var darkThemeSelected =
-    localStorage.getItem("darkSwitch") !== null &&
-    localStorage.getItem("darkSwitch") === "dark";
+  var dt = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null,
+   ds=localStorage.getItem("darkSwitch"),
+   darkThemeSelected =
+    ds !== "light" &&
+    ds === "dark";
+  if(ds === null && dt !== null){ 
+    darkThemeSelected=dt.matches;
+  }
   darkSwitch.checked = darkThemeSelected;
   darkThemeSelected
     ? document.body.setAttribute("data-theme", "dark")
@@ -47,6 +52,6 @@ function resetTheme() {
     localStorage.setItem("darkSwitch", "dark");
   } else {
     document.body.removeAttribute("data-theme");
-    localStorage.removeItem("darkSwitch");
+    localStorage.setItem("darkSwitch", "light");
   }
 }
