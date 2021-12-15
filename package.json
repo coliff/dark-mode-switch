@@ -32,11 +32,11 @@
     "README.md"
   ],
   "devDependencies": {
-    "eslint": "^7.32.0",
+    "eslint": "^8.4.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-ie11": "^1.0.0",
-    "eslint-plugin-prettier": "^3.4.0",
-    "prettier": "^2.3.2",
-    "terser": "^5.7.1"
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1",
+    "terser": "^5.10.0"
   }
 }
