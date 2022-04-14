@@ -8,5 +8,4 @@ node_modules/*
 Thumbs.db
 
 # Files
-package-lock.json
 npm-debug.log
