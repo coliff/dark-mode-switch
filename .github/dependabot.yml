@@ -1,11 +1,17 @@
 version: 2
 updates:
-- package-ecosystem: npm
-  directory: "/"
-  schedule:
-    interval: monthly
-  versioning-strategy: increase
-- package-ecosystem: github-actions
-  directory: "/"
-  schedule:
-    interval: monthly
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: monthly
+    versioning-strategy: increase
+    reviewers:
+      - coliff
+    labels:
+      - dependencies
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
+    reviewers:
+      - coliff
