@@ -37,6 +37,6 @@
     "eslint-plugin-ie11": "^1.0.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.7.1",
-    "terser": "^5.15.0"
+    "terser": "^5.15.1"
   }
 }
