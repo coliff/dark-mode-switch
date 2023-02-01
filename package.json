@@ -33,7 +33,7 @@
   ],
   "devDependencies": {
     "eslint": "^8.31.0",
-    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-ie11": "^1.0.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.8.1",
