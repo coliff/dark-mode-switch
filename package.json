@@ -19,7 +19,7 @@
   "main": "dark-mode-switch.min.js",
   "scripts": {
     "build": "npm run prettier && npm run test && npm run minify",
-    "minify": "terser --ecma 5 --keep-classnames --keep-fnames --safari10 --output dark-mode-switch.min.js -- dark-mode-switch.js",
+    "minify": "terser --ecma 5 --keep-classnames --keep-fnames --output dark-mode-switch.min.js -- dark-mode-switch.js",
     "prettier": "prettier --write dark-mode-switch.js",
     "test": "eslint dark-mode-switch.js"
   },
@@ -32,11 +32,10 @@
     "README.md"
   ],
   "devDependencies": {
-    "eslint": "^8.31.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-ie11": "^1.0.0",
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.8.1",
-    "terser": "^5.16.1"
+    "prettier": "^2.8.4",
+    "terser": "^5.16.5"
   }
 }
