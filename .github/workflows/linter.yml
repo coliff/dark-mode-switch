@@ -26,7 +26,10 @@ jobs:
         env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          IGNORE_GITIGNORED_FILES: true
           JAVASCRIPT_DEFAULT_STYLE: prettier
+          LOG_LEVEL: NOTICE
+          SUPPRESS_POSSUM: true
           VALIDATE_ALL_CODEBASE: false
           VALIDATE_HTML: false
           VALIDATE_MARKDOWN: false
