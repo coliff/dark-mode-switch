@@ -33,7 +33,7 @@
   ],
   "devDependencies": {
     "eslint": "^8.35.0",
-    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.8.4",
     "terser": "^5.16.5"
