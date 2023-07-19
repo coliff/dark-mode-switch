@@ -1,9 +1,7 @@
 {
   "root": true,
   "extends": ["eslint:recommended", "prettier"],
-  "plugins": ["prettier"],
   "rules": {
-    "prettier/prettier": ["warn"],
     "no-undef": "off"
   }
 }
