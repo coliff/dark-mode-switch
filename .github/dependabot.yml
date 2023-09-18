@@ -3,8 +3,7 @@ updates:
   - package-ecosystem: npm
     directory: "/"
     schedule:
-      interval: weekly
-    versioning-strategy: increase
+      interval: monthly
     reviewers:
       - coliff
     labels:
@@ -13,6 +12,6 @@ updates:
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
-      interval: weekly
+      interval: monthly
     reviewers:
       - coliff
