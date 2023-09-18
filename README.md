@@ -60,11 +60,11 @@ Turning dark mode on will add `data-theme="dark"` to the `body` tag. You can use
 
 ## Demo
 
-[Bootstrap 5 Demo page](https://coliff.github.io/dark-mode-switch/index.html)
+[Bootstrap 5 Demo page](https://coliff.github.io/dark-mode-switch/)
 
 ## Browser Support
 
-Works well with all the browsers supported by [Bootstrap 4](https://getbootstrap.com/docs/4.5/getting-started/browsers-devices/#supported-browsers) and [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/browsers-devices/#supported-browsers)
+Works well with all the browsers supported by [Bootstrap 4](https://getbootstrap.com/docs/4.5/getting-started/browsers-devices/#supported-browsers) and [Bootstrap 5](https://getbootstrap.com/docs/5.3/getting-started/browsers-devices/#supported-browsers)
 
 ## To Enable DarkMode in Android Webview
 
