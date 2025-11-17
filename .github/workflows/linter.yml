@@ -3,7 +3,7 @@ name: Lint Code Base
 on:
   push:
 
-permissions:  # added using https://github.com/step-security/secure-workflows
+permissions:
   contents: read
 
 jobs:
@@ -18,8 +18,8 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v5
         with:
-          # Full git history is needed to get a proper list of changed files within `super-linter`
           fetch-depth: 0
+          persist-credentials: false
 
       - name: Lint Code Base
         uses: super-linter/super-linter/slim@v8
@@ -31,6 +31,8 @@ jobs:
           LOG_LEVEL: NOTICE
           SUPPRESS_POSSUM: true
           VALIDATE_ALL_CODEBASE: false
+          VALIDATE_BIOME_FORMAT: false
+          VALIDATE_BIOME_LINT: false
           VALIDATE_CHECKOV: false
           VALIDATE_HTML: false
           VALIDATE_JSCPD: false
