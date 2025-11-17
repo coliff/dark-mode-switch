@@ -10,7 +10,7 @@ on:
       - main
       - "!dependabot/**"
 
-permissions:  # added using https://github.com/step-security/secure-workflows
+permissions: # added using https://github.com/step-security/secure-workflows
   contents: read
 
 jobs:
@@ -23,13 +23,13 @@ jobs:
       security-events: write
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v5
+      - name: Checkout repository
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5
 
-    - name: Initialize CodeQL
-      uses: github/codeql-action/init@v3
-      with:
-        languages: "javascript"
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@2152c31696c8409983789c80ab57c4d91465a2fc # v4
+        with:
+          languages: "javascript"
 
-    - name: Perform CodeQL Analysis
-      uses: github/codeql-action/analyze@v3
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@2152c31696c8409983789c80ab57c4d91465a2fc # v4
