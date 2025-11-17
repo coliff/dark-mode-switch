@@ -9,20 +9,20 @@ permissions:
 jobs:
   build:
     permissions:
-      contents: read  # for actions/checkout to fetch code
-      statuses: write  # for github/super-linter/slim to mark status of each linter run
+      contents: read # for actions/checkout to fetch code
+      statuses: write # for github/super-linter/slim to mark status of each linter run
     name: Lint Code Base
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v5
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5
         with:
           fetch-depth: 0
           persist-credentials: false
 
       - name: Lint Code Base
-        uses: super-linter/super-linter/slim@v8
+        uses: super-linter/super-linter/slim@f6d06a003575dde14f917e642302cf1251f28f4a # v8
         env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
