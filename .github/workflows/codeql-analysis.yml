@@ -4,11 +4,9 @@ on:
   push:
     branches:
       - main
-      - "!dependabot/**"
   pull_request:
     branches:
       - main
-      - "!dependabot/**"
 
 permissions:
   contents: read
@@ -24,7 +22,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3 # v5
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           persist-credentials: false
 
@@ -32,6 +30,7 @@ jobs:
         uses: github/codeql-action/init@2152c31696c8409983789c80ab57c4d91465a2fc # v4
         with:
           languages: "javascript"
+          queries: +security-and-quality
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@2152c31696c8409983789c80ab57c4d91465a2fc # v4
