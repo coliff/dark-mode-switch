@@ -21,8 +21,11 @@ jobs:
           fetch-depth: 0
           persist-credentials: false
 
+      - name: Install dependencies
+        run: npm install --no-package-lock
+
       - name: Lint Code Base
-        uses: super-linter/super-linter/slim@f6d06a003575dde14f917e642302cf1251f28f4a # v8
+        uses: super-linter/super-linter/slim@61abc07d755095a68f4987d1c2c3d1d64408f1f9 # v8.5.0
         env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -34,6 +37,5 @@ jobs:
           VALIDATE_BIOME_FORMAT: false
           VALIDATE_BIOME_LINT: false
           VALIDATE_CHECKOV: false
-          VALIDATE_HTML: false
           VALIDATE_JSCPD: false
           VALIDATE_MARKDOWN: false
