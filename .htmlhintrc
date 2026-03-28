@@ -6,8 +6,10 @@
   "attr-value-double-quotes": false,
   "attr-value-no-duplication": true,
   "attr-value-not-empty": false,
+  "button-type-require": true,
   "doctype-first": false,
   "doctype-html5": true,
+  "frame-title-require": true,
   "head-script-disabled": false,
   "h1-require": false,
   "href-abs-or-rel": false,
@@ -31,3 +33,4 @@
   "tagname-lowercase": true,
   "title-require": false
 }
+

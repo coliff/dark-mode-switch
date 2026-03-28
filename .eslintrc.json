@@ -1,7 +1,21 @@
 {
   "root": true,
   "extends": ["eslint:recommended", "prettier"],
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2015,
+    "sourceType": "script"
+  },
   "rules": {
-    "no-undef": "off"
+    "no-undef": "error",
+    "no-unused-vars": "error",
+    "no-console": "warn",
+    "eqeqeq": ["error", "always"],
+    "curly": ["error", "all"],
+    "no-var": "off",
+    "prefer-const": "off"
   }
 }
