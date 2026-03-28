@@ -39,6 +39,6 @@
     "eslint": "8.57.1",
     "eslint-config-prettier": "^9.0.0",
     "prettier": "3.8.1",
-    "terser": "^5.19.4"
+    "terser": "^5.46.1"
   }
 }
