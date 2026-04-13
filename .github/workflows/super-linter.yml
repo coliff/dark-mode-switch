@@ -1,3 +1,4 @@
+---
 name: Lint Code Base
 
 on:
@@ -39,3 +40,4 @@ jobs:
           VALIDATE_HTML_PRETTIER: false
           VALIDATE_JSCPD: false
           VALIDATE_MARKDOWN: false
+          VALIDATE_NATURAL_LANGUAGE: false

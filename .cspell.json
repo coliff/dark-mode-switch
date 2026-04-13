@@ -1,0 +1,19 @@
+{
+  "version": "0.2",
+  "words": [
+    "christianoliff",
+    "fediverse",
+    "fnames",
+    "Oliff",
+    "stylelint",
+    "tagname",
+    "unspaced"
+  ],
+  "allowCompoundWords": true,
+  "language": "en,en-US",
+  "ignorePaths": [
+    ".cspell.json",
+    "**/node_modules/**"
+  ],
+  "useGitignore": true
+}

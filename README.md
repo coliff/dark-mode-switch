@@ -2,14 +2,14 @@
 [![GitHub Super-Linter](https://github.com/coliff/dark-mode-switch/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Best of JS](https://img.shields.io/endpoint?url=https://bestofjs-serverless.now.sh/api/project-badge?fullName=coliff%2Fdark-mode-switch%26since=monthly)](https://bestofjs.org/projects/dark-mode-switch)
-[![GitHub Stars](https://img.shields.io/github/stars/coliff/dark-mode-switch.svg?label=github%20stars)](https://github.com/coliff/dark-mode-switch)
+[![GitHub Stars](https://img.shields.io/github/stars/coliff/dark-mode-switch.svg?label=GitHub%20Stars)](https://github.com/coliff/dark-mode-switch)
 [![NPM Downloads](https://img.shields.io/npm/dt/dark-mode-switch.svg)](https://www.npmjs.com/package/dark-mode-switch)
 
 # 🌓 Dark Mode Switch
 
 Add a dark-mode theme toggle with a Bootstrap Custom Switch.
 
-- Uses local storage to save preference
+- Uses localStorage to save preference
 - Only 383 Bytes minified and gzipped!
 
 ## Quick start
