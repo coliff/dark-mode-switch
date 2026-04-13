@@ -19,6 +19,7 @@
   "id-unique": false,
   "inline-script-disabled": false,
   "inline-style-disabled": false,
+  "link-rel-canonical-require": true,
   "main-require": true,
   "meta-charset-require": true,
   "meta-description-require": true,

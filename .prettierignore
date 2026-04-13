@@ -1,0 +1,3 @@
+*.min.*
+.cspell.json
+package.json

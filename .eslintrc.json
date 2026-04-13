@@ -1,6 +1,7 @@
 {
   "root": true,
   "extends": ["eslint:recommended", "prettier"],
+  "ignorePatterns": ["dark-mode-switch.min.js", "node_modules/"],
   "env": {
     "browser": true,
     "es6": true
@@ -10,12 +11,40 @@
     "sourceType": "script"
   },
   "rules": {
-    "no-undef": "error",
-    "no-unused-vars": "error",
-    "no-console": "warn",
-    "eqeqeq": ["error", "always"],
+    "strict": ["error", "global"],
     "curly": ["error", "all"],
+    "eqeqeq": ["error", "always"],
+    "no-alert": "error",
+    "no-caller": "error",
+    "no-console": "error",
+    "no-else-return": "error",
+    "no-eval": "error",
+    "no-extend-native": "error",
+    "no-extra-bind": "error",
+    "no-implicit-coercion": "error",
+    "no-implied-eval": "error",
+    "no-iterator": "error",
+    "no-labels": "error",
+    "no-lone-blocks": "error",
+    "no-multi-str": "error",
+    "no-new-func": "error",
+    "no-new-wrappers": "error",
+    "no-octal-escape": "error",
+    "no-proto": "error",
+    "no-return-assign": "error",
+    "no-script-url": "error",
+    "no-self-compare": "error",
+    "no-sequences": "error",
+    "no-throw-literal": "error",
+    "no-undef": "error",
+    "no-unused-expressions": "error",
+    "no-unused-vars": "error",
+    "no-useless-call": "error",
+    "no-useless-concat": "error",
     "no-var": "off",
-    "prefer-const": "off"
+    "prefer-const": "off",
+    "radix": "error",
+    "wrap-iife": ["error", "outside"],
+    "yoda": "error"
   }
 }

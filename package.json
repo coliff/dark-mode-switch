@@ -23,8 +23,10 @@
   "main": "dark-mode-switch.min.js",
   "scripts": {
     "build": "npm run prettier && npm run test && npm run minify",
+    "htmlhint": "npx htmlhint index.html",
     "minify": "terser --ecma 5 --keep-classnames --keep-fnames --output dark-mode-switch.min.js -- dark-mode-switch.js",
     "prettier": "prettier --write dark-mode-switch.js",
+    "cspell": "npx cspell *.md *.js",
     "test": "eslint dark-mode-switch.js"
   },
   "files": [
@@ -38,7 +40,10 @@
   "devDependencies": {
     "eslint": "8.57.1",
     "eslint-config-prettier": "^9.0.0",
-    "prettier": "3.8.1",
+    "prettier": "3.8.2",
     "terser": "^5.46.1"
+  },
+  "volta": {
+    "node": "22.22.2"
   }
 }
